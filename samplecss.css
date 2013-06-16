@@ -1,0 +1,20 @@
+﻿		#weather table{
+	background-color:white;
+	border:1px #FCE99E solid;
+	font-family:Tahoma;
+	font-size:12px;
+}
+	#weather table tr{
+	height:25px
+}
+	#weather table tr td{
+	line-height:25px;
+	text-align:center;
+	border-bottom:1px #FFCC00 dashed;
+	background-image:url('rightbg.png');
+	background-repeat:repeat-x;
+}
+	#weather table tr td#img{
+	background-image:none;
+	background-color:#FFFAF4;
+}
