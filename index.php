@@ -49,7 +49,7 @@
 		<div id="weather">
 			<img src="img/loading.gif"/>
 		</div>
-		<!-- <select style="width:200px;" class='optcity'> -->
+		<select style="width:200px;" class='optcity'> 
 		<?php 
 		
 			$cit = file_get_contents("cities.txt");
@@ -71,8 +71,8 @@
 			}
 			echo $m;	
 		?>
-		<!-- </select> -->
-	</div>
+		</select> 
+		</div>
 </body>
 
 </html>
